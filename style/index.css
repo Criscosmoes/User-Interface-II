@@ -1,1 +1,86 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=PT+Sans&display=swap');
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0; */  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+* {
+    box-sizing: border-box;
+    border: 1px solid grey;  
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    font-family: 'Concert One', cursive;
+
+}
+
+/* header */
+
+.top {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.top h1, nav, h2, p {
+    margin: .5%; 
+}
+
+
+h1 {
+    font-size: 60px; 
+}
+ 
+h2 {
+    font-size: 40px; 
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+nav a {
+
+    display:inline-block; 
+    width: 100px;
+    border: 2px solid black; 
+    text-decoration: none; 
+    color: black;
+    padding: 2%;
+    margin: 0% 10% 0% 10%; 
+    text-align: center;
+}
+
