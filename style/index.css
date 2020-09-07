@@ -15,7 +15,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-/* border: 0;   */
+border: 0;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -25,7 +25,6 @@ vertical-align: baseline;
 * {
     box-sizing: border-box; 
     max-width: 100%;
-    border: 2px solid gray; 
 }
 
 html {
@@ -159,5 +158,62 @@ footer button:hover {
 
     background: black; 
     color: white; 
+
+}
+
+
+@media (max-width: 800px){
+
+
+    .paragraph {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle-bottom p {
+        width: 50%;
+        font-size: 1.4rem; 
+        margin-top: 10%;
+    }
+
+
+    footer button {
+        width: 20%;
+    }
+
+
+    .top p {
+        font-size: 2rem; 
+    }
+}
+
+
+@media (max-width: 502px){
+
+    h1 {
+        font-size: 4.5rem; 
+    }
+    
+    nav {
+        width: 35%; 
+    }
+
+    h2 {
+        font-size: 4.5rem; 
+    }
+
+
+    .top p{
+        font-size: 1.5rem; 
+    }
+
+    .middle-bottom p {
+        font-size: 1.2rem; 
+    }
+
+    footer button {
+        width: 33%; 
+    }
 
 }
