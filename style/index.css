@@ -74,32 +74,47 @@ h1 {
     display: flex; 
     flex-direction: column;
     width: 45%; 
-
-
 }
 
 
+
+
+/* images container */
+
+
+/* makes all images inserted into html 50% of their original size. not all images will look the same though, as most as different size */ 
 .big-image img {
     width: 50%; 
 }
 
+
+
+
+/* parent container! */ 
 .image-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin: 2%; 
+    background: lightgray; 
 }
+
+
+
 
 /* targets all images */ 
-
 .image-container img {
-
+    width: 600px;   /* these two lines of code make EVERY IMAGE inserted the same size NO matter what */ 
+    height: 400px; 
 }
+
+
 
 
 /* each parent box inside our image container */
 .image-container div {
     margin: 2%; 
     width: 20%; 
+    text-align: center;
 }
