@@ -91,11 +91,14 @@ h1 {
     margin: 2%; 
 }
 
+/* targets all images */ 
 
 .image-container img {
 
 }
 
+
+/* each parent box inside our image container */
 .image-container div {
     margin: 2%; 
     width: 20%; 
